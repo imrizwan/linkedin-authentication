@@ -1,0 +1,39 @@
+{
+  "name": "gpt3",
+  "version": "1.0.0",
+  "description": "Gpt3 Teacher",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imrizwan/ai-teacher.git"
+  },
+  "keywords": [
+    "AI",
+    "Teacher"
+  ],
+  "author": "Muhammad Rizwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imrizwan/ai-teacher/issues"
+  },
+  "homepage": "https://github.com/imrizwan/ai-teacher#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.2",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.1",
+    "passport-linkedin": "^1.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
